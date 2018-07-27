@@ -75,7 +75,7 @@ function music(song) {
                 log("---------------------------------");
             }
         } else {
-            console.log("ERROR!");
+            console.log("");
         }
 });
 }
