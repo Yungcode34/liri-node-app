@@ -112,7 +112,7 @@ request(queryUrl, function(error, response, body) {
             log("Plot: " + JSON.parse(body).Plot);
             log("Actors: " + JSON.parse(body).Actors);  
   } else {
-      console.log("ERROR!");
+      console.log("");
   }
   if (movieName === "Mr. Nobody") {
     console.log("-------------");
